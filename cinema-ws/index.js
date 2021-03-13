@@ -17,9 +17,9 @@ app.use(express.json());
 
 app.use("/users", usersController);
 
-app.use("movies", moviesController);
-app.use("members", membersController);
-app.use("subscriptions", subscriptionsController);
+app.use("/movies", moviesController);
+app.use("/members", membersController);
+app.use("/subscriptions", subscriptionsController);
 
 
 dbConfigs
