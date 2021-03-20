@@ -1,0 +1,30 @@
+{
+	"users": [
+		{
+			"_id": "6043fb1c555350a3557b55f9",
+			"permissions": [
+				"Delete Movies",
+				"View Movies",
+				"Create Movies",
+				"Update Movies",
+				"Update Subscriptions",
+				"Delete Subscriptions",
+				"Create Subscriptions",
+				"View Subscriptions"
+			]
+		},
+		{
+			"_id": "604f4030b0693b3a00e20c70",
+			"permissions": [
+				"View Movies",
+				"Update Movies",
+				"View Subscriptions",
+				"Create Subscriptions",
+				"Delete Subscriptions",
+				"Update Subscriptions",
+				"Create Movies",
+				"Delete Movies"
+			]
+		}
+	]
+}
