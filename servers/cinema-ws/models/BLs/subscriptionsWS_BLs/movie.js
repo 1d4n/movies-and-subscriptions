@@ -1,9 +1,5 @@
 const axios = require("axios");
-<<<<<<< HEAD
 const URL = "http://localhost:8000/movies/";
-=======
-const URL = "http://subscriptions-ws.herokuapp.com/movies/";
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 
 const getAll = () => {
 	return new Promise(async (resolve, reject) => {
@@ -16,11 +12,7 @@ const getAll = () => {
 	});
 };
 
-<<<<<<< HEAD
 const getById = id => {
-=======
-const getById = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.get(URL + id);
@@ -34,11 +26,7 @@ const getById = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const addNew = newData => {
-=======
-const addNew = (newData) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.post(URL, newData);
@@ -66,11 +54,7 @@ const updateById = (id, updatedData) => {
 	});
 };
 
-<<<<<<< HEAD
 const deleteById = id => {
-=======
-const deleteById = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.delete(URL + id);
