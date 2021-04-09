@@ -1,0 +1,18 @@
+{
+	"users": [
+		{
+			"_id": "6043fb1c555350a3557b55f9",
+			"firstName": "Idan",
+			"lastName": ":)",
+			"createdDate": "2021-03-04",
+			"sessionTimeout": 999
+		},
+		{
+			"_id": "60659af6b32bb528e07d6c77",
+			"firstName": "test",
+			"lastName": "test",
+			"createdDate": "2021-04-01T10:05:42.718Z",
+			"sessionTimeout": 5
+		}
+	]
+}
