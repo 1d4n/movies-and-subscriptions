@@ -1,9 +1,5 @@
 const axios = require("axios");
-<<<<<<< HEAD
 const URL = "http://localhost:8000/subscriptions/";
-=======
-const URL = "http://subscriptions-ws.herokuapp.com/subscriptions/";
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 
 const getAll = () => {
 	return new Promise(async (resolve, reject) => {
@@ -16,11 +12,7 @@ const getAll = () => {
 	});
 };
 
-<<<<<<< HEAD
 const getById = id => {
-=======
-const getById = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.get(URL + id);
@@ -34,11 +26,7 @@ const getById = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const getByMemberId = id => {
-=======
-const getByMemberId = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.get(URL + "members/" + id);
@@ -52,11 +40,7 @@ const getByMemberId = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const getByMovieId = id => {
-=======
-const getByMovieId = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.get(URL + "movies/" + id);
@@ -70,11 +54,7 @@ const getByMovieId = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const addNew = newData => {
-=======
-const addNew = (newData) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.post(URL, newData);
@@ -102,11 +82,7 @@ const updateById = (id, updatedData) => {
 	});
 };
 
-<<<<<<< HEAD
 const deleteById = id => {
-=======
-const deleteById = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.delete(URL + id);
@@ -120,11 +96,7 @@ const deleteById = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const deleteByMemberId = id => {
-=======
-const deleteByMemberId = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.delete(URL + "members/" + id);
@@ -138,11 +110,7 @@ const deleteByMemberId = (id) => {
 	});
 };
 
-<<<<<<< HEAD
 const deleteByMovieId = id => {
-=======
-const deleteByMovieId = (id) => {
->>>>>>> 6072eb5aa7d8ad6d6f4ee982cdc94da7df57a0a1
 	return new Promise(async (resolve, reject) => {
 		try {
 			let resp = await axios.delete(URL + "movies/" + id);
